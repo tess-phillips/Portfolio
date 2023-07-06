@@ -5,23 +5,26 @@
 .box2, .box3{
     background-color: var(--col3);
 }
+.container{
+    display: block;
+}
 
 .container{
-    display: flex;
-    flex-grow: 1;
-    width:70%;
+    /* display: flex; */
+    /* flex-grow: 1; */
+    width:90%;
     margin:auto;
-    padding-top: 70px;
+    /* padding-top: 70px; */
     padding-bottom: 70px;
     scroll-snap-align: start;
 }
 
-.half{
+/* .half{
     flex-direction: column;
     display: flex;
     flex: 0 0 50%;
     gap:20px;
-}
+} */
 
 .quarter{
     display: flex;
@@ -44,16 +47,16 @@
     }
 }
 
-.quarter:hover{
+/* .quarter:hover{
     opacity: 1;
-}
+} */
 
 
-.img-container{
+/* .img-container{
     & a{
         text-decoration: none;
     }
-}
+} */
 
 /* @media only screen and (max-width: 900px) {
     .quarter{
@@ -66,8 +69,8 @@
     .box4{
         text-align: left;
     }
-}
-@media only screen and (max-width: 600px) {
+} */
+/* @media only screen and (max-width: 600px) {
     .container{
         display: block;
     }
