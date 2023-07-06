@@ -1,5 +1,5 @@
-import { createContainerWithTextOnly } from "./helpers/createContainers.js";
-import { createContainerWithImages } from "./helpers/createContainers.js";
+import { createContainerWithTextOnly } from "../helpers/createContainers.js";
+import { createContainerWithImages } from "../helpers/createContainers.js";
 
 const box1 = createContainerWithTextOnly('h3','quarter box1', 'Recent Education & Experience', [
   "I'm currently working on <b>Founders and Coders</b> software development bootcamp",
