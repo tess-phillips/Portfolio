@@ -10,3 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // I CANT GET SPAN TO WORK ON EACH
 });
 
+const contactBtn = document.getElementById("contactBtn")
+const aboutStuff = document.getElementById("about-stuff")
+
+contactBtn.addEventListener('click', () => {
+  aboutStuff.style.display = "none"
+});
