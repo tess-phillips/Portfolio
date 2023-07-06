@@ -1,0 +1,30 @@
+:root{
+    --col1: #F3EED4;
+    --col2: #E3C9B2;
+    --col3:#A1BECE;
+    --col4:#96A9C2;
+    --col5:#f3e5ff;
+    --col5d:#cbbfd4;
+    --col6:#CDE7CE;    
+    --col6d:#a6bba7;    
+}
+
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    /* padding: 0; */
+}
+
+html{
+    /* box-sizing: border-box; */
+    background-color: var(--col1);
+    /* scroll-behavior: smooth; */
+    /* scroll-snap-type: y proximity; */
+} 
+
+/* .page-container> *{ */
+    /* height:100vh; */
+        /* box-sizing: border-box; */
+    /* margin: 0; */
+    /* padding: 0; */
+/* } */
