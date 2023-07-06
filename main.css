@@ -1,5 +1,5 @@
 :root{
-    --col1: #F3EED4;
+    --col1: #f3eed4;
     --col2: #E3C9B2;
     --col3:#A1BECE;
     --col4:#96A9C2;
@@ -49,16 +49,9 @@ html{
   cursor: pointer;
 }
 
-.modal-content{
+/* .modal-content{
     margin: 15% auto;
     margin-bottom: 0;
     width: 80%;
     max-width: 1000px;
-  }
-
-.modal-content.res {
-  background-color: var(--col1);
-  padding: 20px;
-  height:80%;
-  z-index: 1;
-}
+  } */

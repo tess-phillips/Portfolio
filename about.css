@@ -22,7 +22,7 @@
 .quarter{
     display: flex;
     flex: 1 0 25%;
-    opacity:0.8;
+    /* opacity:0.8; */
     padding:10px;
     margin-left:10px;
     margin-right:10px;
@@ -39,3 +39,21 @@
         padding:10px
     }
 }
+
+.modal-content.res {
+    margin: 15% auto;
+    margin-bottom: 0;
+    width: 80%;
+    max-width: 1000px;
+    background-color: var(--col1);
+    padding: 20px;
+    height:80%;
+    z-index: 1;
+  }
+
+embed{
+    width: 100%;
+    height:80%;
+    /* padding:30px; */
+    max-width:760px;
+  }
