@@ -22,6 +22,6 @@ const box4 = createContainerWithTextOnly('h3','quarter box4', 'Strengths & Passi
   "I have a deep love for the <b>environment </b>and a strong commitment to sustainability",
   "I enjoy tackling challenging problems and finding <b>creative</b> solutions."
 ]);
-document.querySelector('.box1').append(box1)
-document.querySelector('.box2').append(box2)
-document.querySelector('.box4').append(box4)
+// document.querySelector('.box1').append(box1)
+// document.querySelector('.box2').append(box2)
+// document.querySelector('.box4').append(box4)
