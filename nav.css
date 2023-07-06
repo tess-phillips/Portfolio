@@ -1,3 +1,23 @@
+#TP{
+    /* height:100%;
+    width:100%; */
+    /* position:relative; */
+    margin-top: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#landingPage h1{
+    background-color: transparent;
+    font-weight: normal;
+}  
+
+#landingPage{
+    position: relative;
+}
+
 nav{
     position: fixed;
     top: 0;
@@ -35,4 +55,43 @@ nav{
         padding:10px;
         padding-left: 57px; 
     }
+}
+
+.icons-container{
+    /* display: inline-block; */
+    /* margin: auto; */
+    /* width: 50%; */
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.icons{
+    display: inline-block;
+    /* margin: auto;
+    justify-content: center;
+    align-items: center; */
+    /* bottom:100px; */
+    margin-top: 45vh;
+    width: 70px;
+    height:70px;
+    padding: 10px;
+}
+
+.git{
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgFiles/githubicon.png");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.linkedin{
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgFiles/linkedinlog.png");
+    background-position: center;
+    background-size: cover;
 }
