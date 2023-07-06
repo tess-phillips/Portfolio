@@ -5,6 +5,7 @@
   background-image: linear-gradient(var(--col3), var(--col1));
   position:relative;
   scroll-snap-align: start;
+  z-index: -2;
 }
 
 .me2{

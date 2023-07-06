@@ -33,7 +33,7 @@ contactBtn.addEventListener('click', () => {
   contactStuff.style.display = "block";
   projectsStuff.style.display = "none";
 
-  // navBar.style.backgroundColor = "transparent"
+  navBar.style.backgroundColor = "transparent"
 });
 
 projectsBtn.addEventListener('click', () => {
