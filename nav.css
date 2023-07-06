@@ -92,24 +92,28 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .icons {
+.icons {
     display: inline-block;
     margin-top: 45vh;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     padding: 10px;
+    margin-left:10px;
+    margin-right:10px;
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
-  }
-  
-  .git {
+}
+
+.git {
+    padding: 10px;
     background-image: url("../imgFiles/githubicon.png");
-  }
-  
-  .linkedin {
+}
+
+.linkedin {
+    padding: 10px;
     background-image: url("../imgFiles/linkedinlog.png");
-  }
+}
   
