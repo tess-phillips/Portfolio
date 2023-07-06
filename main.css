@@ -10,9 +10,7 @@
 }
 
 * {
-    /* box-sizing: border-box; */
     margin: 0;
-    /* padding: 0; */
 }
 
 html{
@@ -22,9 +20,8 @@ html{
     /* scroll-snap-type: y proximity; */
 } 
 
-/* .page-container> *{ */
-    /* height:100vh; */
-        /* box-sizing: border-box; */
-    /* margin: 0; */
-    /* padding: 0; */
-/* } */
+.blank-space{
+    height:200px;
+    width:100%;
+    background-color: var(--col1);
+}

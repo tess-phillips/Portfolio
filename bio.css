@@ -10,28 +10,29 @@
     margin:0
 }
     
-    .square {
+.square {
     position: absolute;
-    }
+}
     
-    /* #square1 {
+#square1 {
     width: 250px;
     height: 350px;
     background-image: linear-gradient(var(--col3), var(--col2));
     border-style: solid;
     border-width: 10px;
     border-color: var(--col1);
-    margin-right: 300px;
-    } */
+    margin-right: 70px;
+}
     
-    /* #square2 {
-    width: 350px;
+#square2 {
+    width: 250px;
     height: fit-content;
     background-color: var(--col1);
     box-shadow: 0 0 3px 3px var(--col2);
     padding: 20px;
-    font-size: larger;
-    } */
+    margin-right:-50px
+    /* font-size: larger; */
+}
     
     
     /* @media only screen and (max-width: 400px) {
