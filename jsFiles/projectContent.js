@@ -22,7 +22,7 @@ const articles = [
       "This app is designed to be responsive and uses postcode to generate a map and accurate sunrise-sunset timings, as well as a comprehensive daily and 5-day weather forecast. \
       To gather this information, our app integrates three APIs: open-meteo.com, postcodes.io, and thunderforest.com.\
       I made this with Deepa on the FAC Foundation.",
-      image: "./imgFiles/TDWeather.png",
+      image: "../imgFiles/TDWeather.png",
       href: "https://deepsdali.github.io/Weather-Forecast-Project/",
 },
 // {
