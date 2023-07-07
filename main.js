@@ -1,4 +1,5 @@
 import { getModal } from './helpers/getModal.js';
+import { createCardUsingTemplate } from './helpers/createCardUsingTemplate.js';
 
 document.addEventListener('DOMContentLoaded', function() {
   // Load modal.js
@@ -84,17 +85,6 @@ const articles = [
 ]
 articles.reverse()
   
-  const containerElement2 = document.querySelector("#container2");
-  
-  function createCardUsingTemplate(article) {
-    const { title, summary, image ,href } = article;
-    const template = document.querySelector("#articleTemplate");
-    const domFragment = template.content.cloneNode(true);
-    domFragment.querySelector("h3").textContent = title;
-    domFragment.querySelector("img").src = image;
-    domFragment.querySelector("p").textContent = summary;
-    domFragment.querySelector("a").href = href;
-    containerElement2.appendChild(domFragment);
-  }
+
   
 articles.forEach(createCardUsingTemplate);
