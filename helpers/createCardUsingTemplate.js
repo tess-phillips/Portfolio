@@ -9,3 +9,4 @@ export function createCardUsingTemplate(article) {
   domFragment.querySelector("a").href = href;
   containerElement2.appendChild(domFragment);
 }
+//used

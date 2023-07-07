@@ -84,7 +84,5 @@ const articles = [
 // }
 ]
 articles.reverse()
-  
 
-  
 articles.forEach(createCardUsingTemplate);
