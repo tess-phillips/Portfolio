@@ -32,13 +32,12 @@ const articles = [
 //     image: "/imgFiles/TDWeather.png",
 //     href: "https://tess-phillips.github.io/ToDoList/",
 // },
-// {
-//   title: "Wordle",
-//   summary: 
-//     "",
-//     image: "/imgFiles/TDWeather.png",
-//     href: "https://tess-phillips.github.io/Wordle/",
-// }
+{
+  title: "Wordle",
+  summary: "This is a copy of the famous wordle game",
+    image: "/imgFiles/worlde.jpg",
+    href: "https://tess-phillips.github.io/Wordle/",
+}
 ]
 articles.reverse()
 
