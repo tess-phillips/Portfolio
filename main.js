@@ -41,3 +41,32 @@ projectsBtn.addEventListener('click', () => {
   contactStuff.style.display = "none";
   projectsStuff.style.display = "block";
 });
+
+// const articles = [
+//   {
+//     title: "my nice article",
+//     summary:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, omnis!",
+//     image: "https://source.unsplash.com/400x300?0",
+//   },
+//   {
+//     title: "another article",
+//     summary:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, omnis!",
+//     image: "https://source.unsplash.com/400x300?1",
+//   }]
+const articles = []
+  
+  const containerElement2 = document.querySelector("#container2");
+  
+  function createCardUsingTemplate(article) {
+    const { title, summary, image } = article;
+    const template = document.querySelector("#articleTemplate");
+    const domFragment = template.content.cloneNode(true);
+    domFragment.querySelector("h3").textContent = title;
+    domFragment.querySelector("img").src = image;
+    domFragment.querySelector("p").textContent = summary;
+    containerElement2.appendChild(domFragment);
+  }
+  
+articles.forEach(createCardUsingTemplate);

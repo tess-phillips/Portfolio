@@ -1,0 +1,38 @@
+#projects-stuff {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-top: 4rem;
+  }
+  
+  .grid {
+    display: grid;
+    /* create an automatic grid that fits as many columns that are at least 14rem wide as possible */
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-gap: 2rem;
+  }
+  
+  .card {
+    border-radius: 8px;
+    /* two layered box shadows give a more natural floaty effect */
+    box-shadow:
+      0 2px 2px hsla(180, 10%, 20%, 0.2),
+      0 8px 20px hsla(180, 10%, 20%, 0.3); 
+    overflow: hidden; /* stop the image poking out of the top at the rounded corners */
+  }
+  
+  .card__image {
+    width: 100%;
+    object-fit: cover; /* stops the image getting squished as the card's size changes */
+  }
+  
+  .card__body {
+    padding: 1rem;
+  }
+  
+  .card__title {
+    margin: 0;
+    line-height: 1;
+    text-transform: capitalize; /* make the first letter of each word uppercase */
+  }

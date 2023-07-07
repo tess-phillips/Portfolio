@@ -48,10 +48,3 @@ html{
 .close:focus {
   cursor: pointer;
 }
-
-/* .modal-content{
-    margin: 15% auto;
-    margin-bottom: 0;
-    width: 80%;
-    max-width: 1000px;
-  } */
