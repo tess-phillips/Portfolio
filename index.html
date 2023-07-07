@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="cssFiles/bio.css">
     <link rel="stylesheet" href="cssFiles/about.css">
     <link rel="stylesheet" href="cssFiles/contactmeform.css">
+    <link rel="stylesheet" href="cssFiles/projectCards.css">
     <title>Showcase-Mobile</title>
 </head>
 <body>
@@ -89,8 +90,23 @@
             </div>
         </section>
         </span>
-        <span id="projects-stuff" style="display:none">
-            <h1>THIS IS GOING TO HAVE MY PROJECT TEMPLATE IN IT</h1>
+        <span id="projects-stuff" style="display:none">    
+            <section>
+                <div id="container2" class="grid"></div>
+            </section>
+
+            <template id="articleTemplate">
+                <a class="block" href="">
+                    <article class="card">
+                            <img alt="" class="card__image">
+                            <div class="card__body">
+                                <h3 class="card__title"></h3>
+                                <p></p>
+                            </div>
+                    </article>
+                </a>
+
+            </template>
         </span>
 
 

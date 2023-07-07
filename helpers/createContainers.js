@@ -50,19 +50,3 @@ export const createContainerWithImages = (headType, the_className, title, image_
     container.appendChild(image_container)
     return container;
 }
-
-/**
- * THIS SHOULD BE A CREATE CONTAINER WITH MODAL // JUST A CREATE MODAL FUNCTION
- * @param {*} headType 
- * @param {*} the_className 
- * @param {*} title title content
- * @param {*} content_array container content in array form
- * @returns 
- */
-export const createContainerWithOther = (headType, the_className, title, content_array) => {
-    const container = createContainerHead(headType, the_className, title);
-    content_array.forEach((link) => {
-        container.appendChild(link);
-    });
-    return container;
-}
