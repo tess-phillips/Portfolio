@@ -6,6 +6,12 @@
     align-items: center;
 }
 
+@media only screen and (min-width:800px){
+    #TP{
+        margin-top: 20%;
+    }
+}
+
 #landingPage h1{
     background-color: transparent;
     font-weight: normal;
