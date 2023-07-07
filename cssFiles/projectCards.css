@@ -36,3 +36,7 @@
     line-height: 1;
     text-transform: capitalize; /* make the first letter of each word uppercase */
   }
+
+.block{
+    text-decoration: none;
+}
