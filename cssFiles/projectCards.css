@@ -14,6 +14,7 @@
   }
   
   .card {
+    min-height:430px;
     border-radius: 8px;
     /* two layered box shadows give a more natural floaty effect */
     box-shadow:
