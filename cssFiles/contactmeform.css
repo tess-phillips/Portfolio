@@ -3,14 +3,14 @@
   height:100vh;
   overflow: hidden;
   background-image: linear-gradient(var(--col3), var(--col1));
-  position:relative;
+  /* position:relative; */
   scroll-snap-align: start;
-  z-index: -2;
+  /* z-index: -2; */
 }
 
-.me2{
+/* .me2{
   width:100%;
-}
+} */
 
 #formHead {
   position: relative;
@@ -20,100 +20,101 @@
   letter-spacing: 7px;
 }
 
-#form {
+/* #form {
   position: relative;
   width: 100%;
-}
+} */
 
 #square3 {
+  margin-top: 40%;
   background-color: var(--col3);
   border-style:double;
   border-width: 10px;
   border-color: var(--col1);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
   width: 80%;
   max-width: 600px;
   height: max-content;
 }
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+/* input::-webkit-input-placeholder, #message::-webkit-input-placeholder {
   color: var(--col1);
   font-size: 0.875em;
 }
 
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+input:focus::-webkit-input-placeholder, #message:focus::-webkit-input-placeholder {
   color: var(--col3);
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder, #message::-moz-placeholder {
   color: var(--col1);
   font-size: 0.875em;
 }
 
-input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+input:focus::-moz-placeholder, #message:focus::-moz-placeholder {
   color: var(--col3);
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder, #message::placeholder {
   color: var(--col1);
   font-size: 0.875em;
 }
 
-input:focus::placeholder, textarea::focus:placeholder {
+input:focus::placeholder, #message::focus:placeholder {
   color: var(--col3);
 }
 
-input::-ms-placeholder, textarea::-ms-placeholder {
+input::-ms-placeholder, #message::-ms-placeholder {
   color: var(--col1);
   font-size: 0.875em;
 }
 
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+input:focus::-ms-placeholder, #message:focus::-ms-placeholder {
   color: var(--col3);
 }
 
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+input:hover::-webkit-input-placeholder, #message:hover::-webkit-input-placeholder {
   color: var(--col2);
   font-size: 0.875em;
 }
 
-input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+input:hover:focus::-webkit-input-placeholder, #message:hover:focus::-webkit-input-placeholder {
   color: var(--col2);
 }
 
-input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+input:hover::-moz-placeholder, #message:hover::-moz-placeholder {
   color: var(--col2);
   font-size: 0.875em;
 }
 
-input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+input:hover:focus::-moz-placeholder, #message:hover:focus::-moz-placeholder {
   color: var(--col2);
 }
 
-input:hover::placeholder, textarea:hover::placeholder {
+input:hover::placeholder, #message:hover::placeholder {
   color: var(--col2);
   font-size: 0.875em;
 }
 
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+input:hover:focus::placeholder, #message:hover:focus::placeholder {
   color: var(--col2);
 }
 
-input:hover::placeholder, textarea:hover::placeholder {
+input:hover::placeholder, #message:hover::placeholder {
   color: var(--col2);
   font-size: 0.875em;
 }
 
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+input:hover:focus::-ms-placeholder, #message:hover::focus:-ms-placeholder {
   color: var(--col2);
-}
+} */
 
 input {
   font-size: 0.875em;
-  width: 100%;
+  width: 90%;
   height: 50px;
   padding: 0px 15px 0px 15px;
   
@@ -121,59 +122,67 @@ input {
   outline: none;
   color: var(--col1);
   
-  border: solid 1px var(--col3);
-  border-bottom: none;
+  border: solid 1px var(--col1);
+  border-left: none;
+  border-right: none;
+  border-top: none;
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
+}
+
+#name{
+  border-top: solid 1px var(--col1);
 }
 
 input:hover {
-  background: var(--col3);
+  background: var(--col4);
   color: var(--col2);
 }
 
-textarea {
-  width: 100%;
+#message {
+  /* width: 100%; */
   height: 110px;
   max-height: 110px;
-  padding: 15px;
+  /* padding: 15px; */
   
-  background: transparent;
-  outline: none;
+  /* background: transparent; */
+  /* outline: none; */
   
-  color: var(--col1);
-  font-size: 0.875em;
+  /* color: var(--col1); */
+  /* font-size: 0.875em; */
   
-  border: solid 1px var(--col3);
+  /* border: solid 1px var(--col3); */
   
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; */
 }
 
-textarea:hover {
+/* #message:hover {
   background: var(--col3);
   color:var(--col2);
-}
+} */
 
 #submit {
-  width: 100%;
+  width: 97%;
+  /* padding: 0px 15px 0px 15px; */
+
   
-  padding: 0;
-  margin: 0px 0px 0px 0px;
+  /* padding: 0; */
+  /* margin: 0px 0px 0px 0px; */
   
   font-size: 0.875em;
   color: black;
   
-  outline:none;
+  /* outline:none; */
   cursor: pointer;
   
-  border: solid 1px var(--col3);
-  border-top: none;
+  /* border: solid 1px var(--col3);
+  border-top: none; */
 }
 
 #submit:hover {
