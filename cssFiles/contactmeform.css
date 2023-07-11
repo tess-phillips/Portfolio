@@ -78,3 +78,8 @@ input:hover, #message:hover {
 #submit:hover {
   color: var(--col2);
 }
+
+#formReply{
+  padding-top:80px;
+  padding-bottom:90px
+}

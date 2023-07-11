@@ -42,3 +42,10 @@ projectsBtn.addEventListener('click', () => {
   projectsStuff.style.display = "block";
 });
 
+const form = document.getElementById("form")
+const formReply = document.getElementById("formReply")
+const submitBtn = document.getElementById("submit")
+submitBtn.addEventListener('click', () => {
+  form.style.display = "none";
+  formReply.style.display = "block";
+});
