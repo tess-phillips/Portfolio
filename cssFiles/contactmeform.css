@@ -25,7 +25,9 @@
   height: max-content;
 }
 
-input {
+input, #message {
+  letter-spacing: 1px;
+  font-family: initial;
   font-size: 0.875em;
   width: 90%;
   height: 50px;
@@ -50,28 +52,27 @@ input {
   border-top: solid 1px var(--col1);
 }
 
-input:hover {
+input:hover, #message:hover {
   background: var(--col4);
   color: var(--col2);
 }
 
-#message {
+#message{
   height: 110px;
   max-height: 110px;
-  /* width:min-content; */
-  /* max-width: 100%; */
-  /* line-break:strict; */
-  /* word-wrap: break-word; */
-  /* overflow: none; */
-  /* overflow-wrap: break-word; */
-  /* text-overflow: clip; */
+  overflow-wrap: break-word;
+  font-family: initial;
+  padding: 15px;
+  resize: none;
 }
 
 #submit {
+  letter-spacing: 1px;
   width: 97%;
   font-size: 0.875em;
   color: black;
   cursor: pointer;
+  border-bottom: none;
 }
 
 #submit:hover {
