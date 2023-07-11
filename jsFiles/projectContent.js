@@ -34,8 +34,8 @@ const articles = [
 // },
 {
   title: "Wordle",
-  summary: "This is a copy of the famous wordle game",
-    image: "/imgFiles/worlde.jpg",
+  summary: "This is a copy of the famous wordle game.",
+    image: "/imgFiles/wordle.jpg",
     href: "https://tess-phillips.github.io/Wordle/",
 }
 ]
