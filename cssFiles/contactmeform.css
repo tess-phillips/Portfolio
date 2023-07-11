@@ -25,78 +25,6 @@
   height: max-content;
 }
 
-/* input::-webkit-input-placeholder, #message::-webkit-input-placeholder {
-  color: var(--col1);
-  font-size: 0.875em;
-}
-
-input:focus::-webkit-input-placeholder, #message:focus::-webkit-input-placeholder {
-  color: var(--col3);
-}
-
-input::-moz-placeholder, #message::-moz-placeholder {
-  color: var(--col1);
-  font-size: 0.875em;
-}
-
-input:focus::-moz-placeholder, #message:focus::-moz-placeholder {
-  color: var(--col3);
-}
-
-input::placeholder, #message::placeholder {
-  color: var(--col1);
-  font-size: 0.875em;
-}
-
-input:focus::placeholder, #message::focus:placeholder {
-  color: var(--col3);
-}
-
-input::-ms-placeholder, #message::-ms-placeholder {
-  color: var(--col1);
-  font-size: 0.875em;
-}
-
-input:focus::-ms-placeholder, #message:focus::-ms-placeholder {
-  color: var(--col3);
-}
-
-input:hover::-webkit-input-placeholder, #message:hover::-webkit-input-placeholder {
-  color: var(--col2);
-  font-size: 0.875em;
-}
-
-input:hover:focus::-webkit-input-placeholder, #message:hover:focus::-webkit-input-placeholder {
-  color: var(--col2);
-}
-
-input:hover::-moz-placeholder, #message:hover::-moz-placeholder {
-  color: var(--col2);
-  font-size: 0.875em;
-}
-
-input:hover:focus::-moz-placeholder, #message:hover:focus::-moz-placeholder {
-  color: var(--col2);
-}
-
-input:hover::placeholder, #message:hover::placeholder {
-  color: var(--col2);
-  font-size: 0.875em;
-}
-
-input:hover:focus::placeholder, #message:hover:focus::placeholder {
-  color: var(--col2);
-}
-
-input:hover::placeholder, #message:hover::placeholder {
-  color: var(--col2);
-  font-size: 0.875em;
-}
-
-input:hover:focus::-ms-placeholder, #message:hover::focus:-ms-placeholder {
-  color: var(--col2);
-} */
-
 input {
   font-size: 0.875em;
   width: 90%;
@@ -130,6 +58,13 @@ input:hover {
 #message {
   height: 110px;
   max-height: 110px;
+  /* width:min-content; */
+  /* max-width: 100%; */
+  /* line-break:strict; */
+  /* word-wrap: break-word; */
+  /* overflow: none; */
+  /* overflow-wrap: break-word; */
+  /* text-overflow: clip; */
 }
 
 #submit {
