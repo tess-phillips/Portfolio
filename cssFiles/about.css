@@ -1,10 +1,12 @@
 .box1, .box4{
     background-color: var(--col2);
+
 }
 
 .box2, .box3{
-    background-color: var(--col3);
+    background-color: #EBDCC3;
 }
+
 .container{
     display: block;
 }
@@ -20,6 +22,8 @@
     display: flex;
     flex: 1 0 25%;
     padding:10px;
+    padding-top:0px;
+    margin-top: 20px;
     margin-left:10px;
     margin-right:10px;
     align-items: center;
@@ -36,6 +40,10 @@
     }
 }
 
+.box3{
+    padding-top:25px;
+}
+
 .modal-content.res {
     margin: 15% auto;
     margin-bottom: 0;
@@ -45,7 +53,7 @@
     padding: 20px;
     height:80%;
     z-index: 1;
-  }
+}
 
 embed{
     width: 100%;
