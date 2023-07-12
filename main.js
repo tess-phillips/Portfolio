@@ -38,6 +38,14 @@ projectsBtn.addEventListener('click', () => {
   projectsStuff.style.display = "block";
 });
 
+//resume download event listener
+document.getElementById("myResBtnDownload").addEventListener("click", function() {
+  var link = document.createElement("a");
+  link.href = "./imgFiles/TessPhillipsResume310523.pdf";
+  link.download = "TessPhillipsResume310523.pdf";
+  link.click();
+});
+
 //form transitions
 const form = document.getElementById("form")
 const formReply = document.getElementById("formReply")
@@ -45,12 +53,4 @@ const submitBtn = document.getElementById("submit")
 submitBtn.addEventListener('click', () => {
   form.style.display = "none";
   formReply.style.display = "block";
-});
-
-//resume download event listener
-document.getElementById("myResBtnDownload").addEventListener("click", function() {
-  var link = document.createElement("a");
-  link.href = "./imgFiles/TessPhillipsResume310523.pdf";
-  link.download = "TessPhillipsResume310523.pdf";
-  link.click();
 });

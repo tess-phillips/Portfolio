@@ -1,6 +1,6 @@
 #projects-stuff {
   padding: 2rem;
-  background-color: var(--col2);
+  background-image: linear-gradient(var(--col2), var(--col1));
   margin-top: 4rem;
   padding: 4rem;
 }

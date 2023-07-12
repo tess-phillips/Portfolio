@@ -4,7 +4,7 @@
 }
 
 .box2, .box3{
-    background-color: #EBDCC3;
+    background-color: var(--col5);
 }
 
 .container{
