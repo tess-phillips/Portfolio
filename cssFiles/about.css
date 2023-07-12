@@ -42,6 +42,13 @@
 
 .box3{
     padding-top:25px;
+    & button{
+        background-color: var(--col1);
+        padding:10px;
+        border-radius: 9999px;
+        border-color: var(--col3);
+        cursor: pointer;
+    }
 }
 
 .modal-content.res {
