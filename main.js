@@ -1,4 +1,6 @@
 import { getModal } from './helpers/getModal.js';
+import {simulateTabNavigation} from './helpers/keyboardFunctions.js'
+import {simulateReverseTabNavigation} from './helpers/keyboardFunctions.js'
 
 //modal for resume
 document.addEventListener('DOMContentLoaded', function() {
@@ -91,12 +93,11 @@ document.addEventListener('keydown', function(event) {
     simulateReverseTabNavigation(currentIndex,elementsArray);
   }
   else if (event.key === "ArrowRight") {
-    simulateTabNavigation(currentIndex,elementsArray);
-  }
-  else if (event.key === "Enter" && currentElement.className === "checkbox"){
-    // this adds the strikethrough for the checked task
-    tickOff(currentElement)
-    // this checks the box if it isn't already, otherwise it removes the check
-    currentElement.checked ^=1
+    if (currentElement.id === "myResBtn"){
+      simulateTabNavigation(-1,elementsArray);
+      console.log("try")
+    } 
+    else { 
+      simulateTabNavigation(currentIndex,elementsArray)};
   }
 });
