@@ -1,9 +1,13 @@
 #projects-stuff {
     padding: 2rem;
+    background-color: var(--col2);
+    /* height:100vh; */
+    margin-top: 4rem;
+    padding: 4rem;
   }
   
   section {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
   }
   
   .grid {
@@ -21,6 +25,7 @@
       0 2px 2px hsla(180, 10%, 20%, 0.2),
       0 8px 20px hsla(180, 10%, 20%, 0.3); 
     overflow: hidden; /* stop the image poking out of the top at the rounded corners */
+    background-color: var(--col1);
   }
   
   .card__image {

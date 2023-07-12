@@ -1,9 +1,10 @@
 .contactcanvas {
   color: var(--col1);
-  height:100vh;
+  /* height:100vh; */
   overflow: hidden;
   background-image: linear-gradient(var(--col3), var(--col1));
   scroll-snap-align: start;
+  margin-top: 4rem;
 }
 
 #formHead {
@@ -15,7 +16,8 @@
 }
 
 #square3 {
-  margin-top: 40%;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   background-color: var(--col3);
   border-style:double;
   border-width: 10px;
