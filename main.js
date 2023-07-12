@@ -1,19 +1,15 @@
 import { getModal } from './helpers/getModal.js';
 
+//modal for resume
 document.addEventListener('DOMContentLoaded', function() {
-  // Load modal.js
   getModal("myResModal", "myResBtn", "myResClose");
-  // getModal("myWhenModal", "myWhenBtn", "myWhenClose");
-  // getModal("myAppModal", "myAppBtn", "myAppClose");
-  // getModal("myWeatherModal", "myWeatherBtn", "myWeatherClose");
-  // I FINALLY GOT WINDOW TO WORK FOR EACH BUTTTT
-  // I CANT GET SPAN TO WORK ON EACH
 });
 
+
+//website page transitions
 const aboutBtn = document.getElementById("aboutBtn")
 const contactBtn = document.getElementById("contactBtn")
 const projectsBtn = document.getElementById("projectsBtn")
-
 
 const aboutStuff = document.getElementById("about-stuff")
 const contactStuff = document.getElementById("contact-stuff")
@@ -42,6 +38,7 @@ projectsBtn.addEventListener('click', () => {
   projectsStuff.style.display = "block";
 });
 
+//form transitions
 const form = document.getElementById("form")
 const formReply = document.getElementById("formReply")
 const submitBtn = document.getElementById("submit")
