@@ -53,11 +53,11 @@ input, #message {
 #name{
   border-top: solid 1px var(--col1);
 }
-
-input:hover, #message:hover {
+/* 
+input:hover, #message:hover, input:focus, #message:focus {
   background: var(--col4);
   color: var(--col2);
-}
+} */
 
 #message{
   height: 110px;

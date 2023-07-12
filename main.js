@@ -50,6 +50,7 @@ document.getElementById("myResBtnDownload").addEventListener("click", function()
 
 //form transitions
 const form = document.getElementById("form")
+console.log(form.childNodes)
 const formReply = document.getElementById("formReply")
 const submitBtn = document.getElementById("submit")
 submitBtn.addEventListener('click', () => {
@@ -57,47 +58,24 @@ submitBtn.addEventListener('click', () => {
   formReply.style.display = "block";
 });
 
-// // functionality for the enter button when using tab to navigate the page
-// const buttons = document.querySelectorAll('button');
-// // Add event listener to each button
-// buttons.forEach(button => {
-//   button.addEventListener('keydown', function(event) {
-//     // Check if the pressed key is Enter
-//     if (event.key === 13) {
-//       button.click();
-//     }
-//   });
-// });
+// functionality for the enter button when using tab to navigate the page
+const buttons = document.querySelectorAll('button:not(input#submit)');
+// Add event listener to each button
+buttons.forEach(button => {
+  button.addEventListener('keydown', function(event) {
+    // Check if the pressed key is Enter
+    if (event.key === 13) {
+      button.click();
+    }
+  });
+});
 
-// //functionlity for the enter button when used on a text input
-// const newTaskInput = document.getElementById('newTaskInput');
-// newTaskInput.addEventListener('keydown', function(event) {
+// //functionlity for the enter button when used on a text input in the form
+// const inputs = form.querySelectorAll(":not(text):not(input#submit):not(br)");
+// console.log(inputs)
+// inputs.addEventListener('keydown', function(event) {
 //   if (event.key === 'Enter') {
-//     document.getElementById('addPush').click();
+//     console.log(event)
+//     // document.getElementById('addPush').click();
 //   }
 // });
-
-//adding event listener for the left and right arrows
-document.addEventListener('keydown', function(event) {
-  // Get all focusable elements within the document and converts to an array
-  const focusableElements = document.querySelectorAll(
-    'a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"])'
-  );
-  const elementsArray = Array.from(focusableElements);
-  
-  // Gets the currently focused element
-  const currentElement = document.activeElement;
-  const currentIndex = elementsArray.indexOf(currentElement);
-
-  if (event.key === "ArrowLeft") {
-    simulateReverseTabNavigation(currentIndex,elementsArray);
-  }
-  else if (event.key === "ArrowRight") {
-    if (currentElement.id === "myResBtn"){
-      simulateTabNavigation(-1,elementsArray);
-      console.log("try")
-    } 
-    else { 
-      simulateTabNavigation(currentIndex,elementsArray)};
-  }
-});
