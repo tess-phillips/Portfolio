@@ -54,3 +54,49 @@ submitBtn.addEventListener('click', () => {
   form.style.display = "none";
   formReply.style.display = "block";
 });
+
+// // functionality for the enter button when using tab to navigate the page
+// const buttons = document.querySelectorAll('button');
+// // Add event listener to each button
+// buttons.forEach(button => {
+//   button.addEventListener('keydown', function(event) {
+//     // Check if the pressed key is Enter
+//     if (event.key === 13) {
+//       button.click();
+//     }
+//   });
+// });
+
+// //functionlity for the enter button when used on a text input
+// const newTaskInput = document.getElementById('newTaskInput');
+// newTaskInput.addEventListener('keydown', function(event) {
+//   if (event.key === 'Enter') {
+//     document.getElementById('addPush').click();
+//   }
+// });
+
+//adding event listener for the left and right arrows
+document.addEventListener('keydown', function(event) {
+  // Get all focusable elements within the document and converts to an array
+  const focusableElements = document.querySelectorAll(
+    'a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"])'
+  );
+  const elementsArray = Array.from(focusableElements);
+  
+  // Gets the currently focused element
+  const currentElement = document.activeElement;
+  const currentIndex = elementsArray.indexOf(currentElement);
+
+  if (event.key === "ArrowLeft") {
+    simulateReverseTabNavigation(currentIndex,elementsArray);
+  }
+  else if (event.key === "ArrowRight") {
+    simulateTabNavigation(currentIndex,elementsArray);
+  }
+  else if (event.key === "Enter" && currentElement.className === "checkbox"){
+    // this adds the strikethrough for the checked task
+    tickOff(currentElement)
+    // this checks the box if it isn't already, otherwise it removes the check
+    currentElement.checked ^=1
+  }
+});
