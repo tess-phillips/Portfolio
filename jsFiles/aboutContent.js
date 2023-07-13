@@ -17,7 +17,7 @@ const box2 = createContainerWithImages('h3','quarter box2','Languages and Tools:
   ['https://reactjs.org/', 'react',"https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"]
 ]);
 const box4 = createContainerWithTextOnly('h3','quarter box4', 'Strengths & Passions', [
-  "I'm a passionate and <b>curious learner</b> who thrives in collaborative environments",
+  "I'm a passionate and <b>curious learner</b> who thrives in collaborative environments.",
   "I believe in the power of technology to create <b>positive change</b>.",
   "I have a deep love for the <b>environment </b>and a strong commitment to sustainability",
   "I enjoy tackling challenging problems and finding <b>creative</b> solutions."

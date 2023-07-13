@@ -1,5 +1,5 @@
 #projects-stuff {
-  padding: 2rem;
+  /* padding: 2rem; */
   background-image: linear-gradient(var(--col2), var(--col1));
   margin-top: 4rem;
   padding: 4rem;
@@ -13,7 +13,7 @@
 }
 
 .card {
-  min-height:430px;
+  /* min-height:400px; */
   border-radius: 8px;
   /* two layered box shadows give a more natural floaty effect */
   box-shadow:
@@ -26,10 +26,12 @@
 .card__image {
   width: 100%;
   object-fit: cover; /* stops the image getting squished as the card's size changes */
+  height:200px;
 }
 
 .card__body {
   padding: 1rem;
+  min-height:105px;
 }
 
 .card__title {
@@ -41,4 +43,9 @@
 .block{
   text-decoration: none;
   color: black;
+}
+
+h6{
+  font-weight: normal;
+  padding-bottom: 3px;
 }
