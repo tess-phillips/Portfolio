@@ -19,6 +19,14 @@ const articles = [
     href: "https://tess-phillips.github.io/FAC2/",
   },
   {
+    title: "Slidey Game",
+    subheading: "FAC Application",
+    summary:
+      "This website is for a game called Slidey. I made it for the Application but have since improved it with newfound knowledge.",
+    image: "./imgFiles/slideyLanding.jpg",
+    href: "https://tess-phillips.github.io/FAC5/",
+  },
+  {
     title: "TD Weather App",
     subheading: "FAC Foundation, with Deepashri Dali",
     summary: 

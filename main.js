@@ -50,7 +50,6 @@ document.getElementById("myResBtnDownload").addEventListener("click", function()
 
 //form transitions
 const form = document.getElementById("form")
-console.log(form.childNodes)
 const formReply = document.getElementById("formReply")
 const submitBtn = document.getElementById("submit")
 submitBtn.addEventListener('click', () => {

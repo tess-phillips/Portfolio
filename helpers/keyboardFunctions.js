@@ -3,7 +3,6 @@ export function simulateReverseTabNavigation(currentIndex,elementsArray) {
     const previousIndex = (currentIndex - 1 + elementsArray.length) % elementsArray.length;
     // Focus the previous element
     elementsArray[previousIndex].focus();
-    console.log(currentIndex)
   }
   
 export function simulateTabNavigation(currentIndex,elementsArray) {
@@ -11,5 +10,4 @@ export function simulateTabNavigation(currentIndex,elementsArray) {
     const nextIndex = (currentIndex + 1) % elementsArray.length;
     // Focus the next element
     elementsArray[nextIndex].focus();
-    // console.log(currentIndex,elementsArray)
   }
