@@ -7,7 +7,7 @@ const articles = [
     summary:
       "This site is an informative page about bouldering and other types of climbing. It is also the first site I ever made in HTML.",
     image: "./imgFiles/hobbyLanding.jpg",
-    href: "https://tess-phillips.github.io/FAC1/",
+    href: "https://tess-phillips.github.io/boulderingPage/",
   },
   {
     title: "Project Gallery",
@@ -24,7 +24,7 @@ const articles = [
     summary:
       "This website is for a game called Slidey. I made it for the Application but have since improved it with newfound knowledge.",
     image: "./imgFiles/slideyLanding.jpg",
-    href: "https://tess-phillips.github.io/FAC5/",
+    href: "https://tess-phillips.github.io/slideyGame/",
   },
   {
     title: "TD Weather App",
