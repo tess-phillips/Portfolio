@@ -1,5 +1,5 @@
 #TP{
-    margin-top: 50%;
+    margin-top: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -15,11 +15,13 @@
 #landingPage h1{
     background-color: transparent;
     font-weight: normal;
+    font-size: 48px;
 }  
 
 #landingPage{
     position: relative;
     z-index: -1;
+    font-family: 'Rufina', serif;
 }
 
 .logoparent{
@@ -51,6 +53,7 @@ nav{
     top: 0;
     width:100%;
     background-color: var(--col1);
+    font-family: 'Rufina', serif;
 }
 
 .navChild {
