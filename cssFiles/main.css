@@ -58,3 +58,15 @@ html{
     width: 0;
     transition: width 0.5s; /* You can adjust the transition speed here */
 }
+
+.copyright {
+    color: #555;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--col3);
+    padding: 20px;
+    text-align: center;
+}
