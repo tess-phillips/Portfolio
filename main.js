@@ -9,31 +9,58 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 //website page transitions
-const aboutBtn = document.getElementById("aboutBtn")
-const contactBtn = document.getElementById("contactBtn")
-const projectsBtn = document.getElementById("projectsBtn")
+// Function to check if user is at the top of the page
+function isAtTopOfPage() {
+  console.log(window.scrollY === 0)
+  return window.scrollY === 0;
+}
 
-const aboutStuff = document.getElementById("about-stuff")
-const contactStuff = document.getElementById("contact-stuff")
-const projectsStuff = document.getElementById("projects-stuff")
+// Function to scroll down 100vh
+function scrollToNextSection() {
+  const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+  console.log(viewportHeight);
+  window.scrollTo({ top: viewportHeight, behavior: 'smooth' });
+  // setTimeout(() => {
+  //   window.scrollTo(0, viewportHeight);
+  // }, 1000);
+}
+
+// Adding click event listeners to the buttons
+const aboutBtn = document.getElementById("aboutBtn");
+const contactBtn = document.getElementById("contactBtn");
+const projectsBtn = document.getElementById("projectsBtn");
+
+const aboutStuff = document.getElementById("about-stuff");
+const contactStuff = document.getElementById("contact-stuff");
+const projectsStuff = document.getElementById("projects-stuff");
 
 aboutBtn.addEventListener('click', () => {
+  if (isAtTopOfPage()) {
+    scrollToNextSection();
+  }
   aboutStuff.style.display = "block";
   contactStuff.style.display = "none";
   projectsStuff.style.display = "none";
 });
 
 contactBtn.addEventListener('click', () => {
+  if (isAtTopOfPage()) {
+    scrollToNextSection();
+  }
   aboutStuff.style.display = "none";
   contactStuff.style.display = "block";
   projectsStuff.style.display = "none";
 });
 
 projectsBtn.addEventListener('click', () => {
+  if (isAtTopOfPage()) {
+    scrollToNextSection();
+  }
   aboutStuff.style.display = "none";
   contactStuff.style.display = "none";
   projectsStuff.style.display = "block";
 });
+
 
 //resume download event listener
 document.getElementById("myResBtnDownload").addEventListener("click", function() {
