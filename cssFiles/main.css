@@ -4,9 +4,6 @@
     --col3:#A1BECE;
     --col4:#96A9C2;
     --col5:#EBDCC3;
-    /* --col5d:#cbbfd4;
-    --col6:#CDE7CE;    
-    --col6d:#a6bba7;     */
 }
 
 * {
@@ -16,17 +13,13 @@
 html{
     font-family: 'PT Serif', serif;
     font-size: 16px;
-    /* box-sizing: border-box; */
     background-image: linear-gradient(var(--col1), var(--col3));
     background-color: var(--col1);
-    /* scroll-behavior: smooth; */
-    /* scroll-snap-type: y proximity; */
 } 
 
 .blank-space{
     height:200px;
     width:100%;
-    /* background-color: var(--col1); */
 }
 
 /* The Modal (background) */

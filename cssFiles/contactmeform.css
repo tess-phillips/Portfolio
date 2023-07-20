@@ -1,8 +1,7 @@
 .contactcanvas {
   color: var(--col1);
-  /* height:100vh; */
+  height:100vh;
   overflow: hidden;
-  /* background-image: linear-gradient(var(--col3), var(--col1)); */
   scroll-snap-align: start;
   margin-top: 4rem;
 }
@@ -53,11 +52,6 @@ input, #message {
 #name{
   border-top: solid 1px var(--col1);
 }
-/* 
-input:hover, #message:hover, input:focus, #message:focus {
-  background: var(--col4);
-  color: var(--col2);
-} */
 
 #message{
   height: 110px;
