@@ -23,7 +23,7 @@ aboutBtn.addEventListener('click', () => {
   aboutStuff.style.display = "block";
   contactStuff.style.display = "none";
   projectsStuff.style.display = "none";
-  navBar.style.backgroundColor = "var(--col1)"
+  // navBar.style.backgroundColor = "var(--col1)"
 });
 
 contactBtn.addEventListener('click', () => {
@@ -31,7 +31,7 @@ contactBtn.addEventListener('click', () => {
   contactStuff.style.display = "block";
   projectsStuff.style.display = "none";
 
-  navBar.style.backgroundColor = "transparent"
+  // navBar.style.backgroundColor = "transparent"
 });
 
 projectsBtn.addEventListener('click', () => {

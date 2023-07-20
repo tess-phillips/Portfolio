@@ -2,7 +2,7 @@
   color: var(--col1);
   /* height:100vh; */
   overflow: hidden;
-  background-image: linear-gradient(var(--col3), var(--col1));
+  /* background-image: linear-gradient(var(--col3), var(--col1)); */
   scroll-snap-align: start;
   margin-top: 4rem;
 }

@@ -17,6 +17,7 @@ html{
     font-family: 'PT Serif', serif;
     font-size: 16px;
     /* box-sizing: border-box; */
+    background-image: linear-gradient(var(--col1), var(--col3));
     background-color: var(--col1);
     /* scroll-behavior: smooth; */
     /* scroll-snap-type: y proximity; */
@@ -25,7 +26,7 @@ html{
 .blank-space{
     height:200px;
     width:100%;
-    background-color: var(--col1);
+    /* background-color: var(--col1); */
 }
 
 /* The Modal (background) */
