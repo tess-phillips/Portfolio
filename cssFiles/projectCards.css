@@ -8,18 +8,24 @@
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
   grid-gap: 2rem;
   margin: auto;
-  max-width: 600px;
+  max-width: 850px;
+}
+
+@media screen and (max-width:1000px){
+  .grid{
+    max-width: 300px;
+  }
 }
 
 .card {
-  /* min-height:400px; */
+  min-height:370px;
   border-radius: 8px;
   /* two layered box shadows give a more natural floaty effect */
   box-shadow:
     0 2px 2px hsla(180, 10%, 20%, 0.2),
     0 8px 20px hsla(180, 10%, 20%, 0.3); 
   overflow: hidden; /* stop the image poking out of the top at the rounded corners */
-  background-color: var(--col1);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .card__image {
@@ -46,5 +52,11 @@
 
 h6{
   font-weight: normal;
-  padding-bottom: 3px;
+  padding-top: 2px;
+  padding-bottom: 7px;
+}
+
+#h2-projects{
+  font-family: 'Rufina', serif;
+  padding-bottom: 10px;
 }

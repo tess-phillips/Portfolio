@@ -16,12 +16,13 @@
     background-color: transparent;
     font-weight: normal;
     font-size: 48px;
+    font-family: 'Rufina', serif;
+
 }  
 
 #landingPage{
     position: relative;
     z-index: -1;
-    font-family: 'Rufina', serif;
 }
 
 .logoparent{

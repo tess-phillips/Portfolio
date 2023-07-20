@@ -31,7 +31,7 @@ const articles = [
     subheading: "FAC Foundation, with Deepashri Dali",
     summary: 
       "This app uses a postcode to generate relevant weather and location datam using three APIs: open-meteo.com, postcodes.io, and thunderforest.com.\
-      I made this with Deepa on the FAC Foundation.",
+     ",
       image: "./imgFiles/TDWeather.png",
       href: "https://deepsdali.github.io/Weather-Forecast-Project/",
 },
@@ -40,7 +40,7 @@ const articles = [
   subheading: "FAC Foundation, with Tommaso Orlandi",
   summary: 
     "This is an interactive and accessible site where you can add your daily tasks that can be updated, edited and sorted as required.\
-    I made this with Tommaso on the FAC Foundation.",
+   ",
     image: "./imgFiles/toDoListLanding.jpg",
     href: "https://tess-phillips.github.io/ToDoList/",
 },

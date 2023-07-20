@@ -31,8 +31,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: justify;
-    /* transition: 0.6s ease;   */
+    transition: 0.6s ease;  
     padding: auto 25%;
     border-radius: 50px;
     & h3{
