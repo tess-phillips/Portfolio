@@ -78,3 +78,22 @@ buttons.forEach(button => {
 //     // document.getElementById('addPush').click();
 //   }
 // });
+
+const textTitle = document.getElementById("title-text");
+const titleToType = "Tess Phillips";
+const underline = document.getElementById("underline");
+let index = 0;
+function type() {
+    textTitle.textContent += titleToType.charAt(index);
+    index++;
+    setTimeout(type, 150);
+    setTimeout(drawUnderline, 1950);
+
+}
+
+function drawUnderline() {
+  const textWidth = textTitle.offsetWidth;
+  underline.style.width = `${textWidth}px`;
+}
+
+type();

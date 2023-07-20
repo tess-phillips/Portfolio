@@ -50,3 +50,11 @@ html{
 .close:focus {
   cursor: pointer;
 }
+
+#underline {
+    display: block;
+    height: 3px;
+    background-color: black;
+    width: 0;
+    transition: width 0.5s; /* You can adjust the transition speed here */
+}
