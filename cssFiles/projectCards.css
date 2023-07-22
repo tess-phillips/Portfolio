@@ -2,6 +2,12 @@
   margin-top: 4rem;
   padding: 4rem;
 }
+
+
+#h2-projects{
+  font-family: 'Rufina', serif;
+  padding-bottom: 10px;
+}
   
 .grid {
   display: grid;
@@ -42,6 +48,7 @@
 .card__title {
   margin: 0;
   line-height: 1;
+  display: inline-block;
   text-transform: capitalize; /* make the first letter of each word uppercase */
 }
 
@@ -50,13 +57,20 @@
   color: black;
 }
 
-h6{
+.card__subheading{
   font-weight: normal;
   padding-top: 2px;
   padding-bottom: 7px;
 }
 
-#h2-projects{
-  font-family: 'Rufina', serif;
-  padding-bottom: 10px;
+.card__tag{
+  background-color: lightpink;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 5px 12px;
+  float:right;
+  text-align: center;
+  word-wrap:break-word;
+  max-width: 40px;
+  border-radius: 9999px;
 }

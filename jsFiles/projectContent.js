@@ -28,9 +28,10 @@ const articles = [
   },
   {
     title: "TD Weather App",
+    favourite: true,
     subheading: "FAC Foundation, with Deepashri Dali",
     summary: 
-      "This app uses a postcode to generate relevant weather and location datam using three APIs: open-meteo.com, postcodes.io, and thunderforest.com.\
+      "This app uses a postcode to generate relevant weather and location data using three APIs: open-meteo.com, postcodes.io, and thunderforest.com.\
      ",
       image: "./imgFiles/TDWeather.png",
       href: "https://deepsdali.github.io/Weather-Forecast-Project/",
@@ -46,6 +47,7 @@ const articles = [
 },
 {
   title: "Wordle",
+  favourite:true,
   summary: "This is a version of the famous wordle game. It has a range of different features though so go and check it out. ",
     image: "./imgFiles/wordle.jpg",
     href: "https://tess-phillips.github.io/Wordle/",
