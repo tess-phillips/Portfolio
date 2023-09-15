@@ -11,14 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
 //website page transitions
 // Function to check if user is at the top of the page
 function isAtTopOfPage() {
-  console.log(window.scrollY === 0)
+  // console.log(window.scrollY === 0)
   return window.scrollY === 0;
 }
 
 // Function to scroll down 100vh
 function scrollToNextSection() {
   const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-  console.log(viewportHeight);
+  // console.log(viewportHeight);
   window.scrollTo({ top: viewportHeight, behavior: 'smooth' });
   // setTimeout(() => {
   //   window.scrollTo(0, viewportHeight);
